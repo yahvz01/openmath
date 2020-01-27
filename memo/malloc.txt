@@ -1,0 +1,7 @@
+When a buffer previously allocated with malloc() has been reelased with free(), it will be reused -  which means you can expect it to be return a future allocation
+
+When malloc function allocated same momory location
+
+- When you invoke malloc function, you are requiesting to give some space in heap, if yhe request space is present, malloc gives the starting address of the allocated spa
+
+Your program will ahve a memry leak. The firstc

@@ -1,0 +1,26 @@
+Testing with CTest
+
+Simple Testing
+
+enable_testing()
+
+This adds another build target, which is test for Makefile generator,
+
+add_test( testname Exename arg1 arg2)
+
+add_test(NAME <name>
+    [CONFIGURATIONS [Debug|Release]]
+    [WORKING_DIRECTORY dir]
+    COMMAND <command> [arg1 [ arg2 ...]])
+
+Once you have built the porject, you can execute all test via
+
+make test
+
+with Makefile generators, or by rebuilding the RUN_TESTS target in your
+IDE, internally this runs CTesttoactual perform the testing, you could
+just as well execute
+
+ctest
+
+in the binary of your build

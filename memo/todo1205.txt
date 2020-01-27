@@ -1,0 +1,38 @@
+@Impl
+
+-DONE
+	string_to_integar_ptr
+-DO_PROCESS
+	class implement
+	openmath::Bitset
+-NONE(doesn't have any plan on this side)
+	integar_to_string_ptr
+
+@TODO
+
+Besides, these classes is functioning based on heap memory
+So, Buffer or Not doesn;t have any reason why is existed
+with Buffer or Immutable value
+
+@Impl
+- FixedByteLengthIntBuffer
+- FixedByteLengthInt
+- UnLimitedIntBuffer
+- UnLimitedInt
+
+@Fixing
+- Speicla Member_And_Dtor(DONE)
+
+@Test
+- Method ( DONE )
+- FixedByteLengthIntBuffer( DONE )
+- FixedByteLengthInt ( DONE )
+- UnLimitedIntBuffer ( Impl DONE & NEED TEST )
+- UnLimitedInt (DONE)
+
+@Impl
+- integar_to_string
+- apply FixedByteLengthInt & UnLimitedInt
+
+Buffer
+None_Compare_Opt
